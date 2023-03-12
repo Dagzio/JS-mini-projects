@@ -22,7 +22,7 @@ function onInputChange() {
 
 function onSubmitForm(event) {
     event.preventDefault();
-    console.log(localStorage.getItem("feedback-form-state"));
+    console.log(JSON.parse(localStorage.getItem("feedback-form-state")));
     event.currentTarget.reset();
     localStorage.removeItem("feedback-form-state");
 };
