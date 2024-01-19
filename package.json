@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Dagzio.github.io/goit-js-hw-08",
+  "homepage": "https://Dagzio.github.io/JS-mini-projects",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "build": "parcel build src/*.html --public-url /JS-mini-projects/"
   },
   "repository": {
     "type": "git",
